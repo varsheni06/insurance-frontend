@@ -1,0 +1,68 @@
+<div class="header">
+    <div class="logo">
+      <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-insurance-logo-vector-image_80257.jpg" alt="Logo">
+    </div>
+    <div class="title">Insurance Company</div>
+    <div class="logout">
+      <button (click)="logout()">Logout</button>
+    </div>
+  </div>
+<div class="dashboard-container">
+    <!-- Left section for profile details and insurances -->
+    <div class="left-section">
+      <!-- User Profile Details -->
+      <div class="box-container">
+        <h2>User Profile Details</h2>
+        <div class="profile-item">
+          <strong>Name:</strong> {{ userProfile?.name }}
+        </div>
+        <div class="profile-item">
+          <strong>Employee ID:</strong> {{ userProfile?.empid }}
+        </div>
+        <div class="profile-item">
+          <strong>Company Name:</strong> {{ userProfile?.companyname }}
+        </div>
+      </div>
+  
+      <!-- Available Insurances -->
+      <div class="box-container">
+        <h2>Available Insurances</h2>
+        <br>
+        <ul>
+          <li *ngFor="let insurance of insurances" class="insurance-item">
+            <div class="insurance-name">{{ insurance.name }}</div>
+            <div class="insurance-description">{{ insurance.description }}</div>
+            <div class="expiry-date">Expiry Date: {{ insurance.expiryDate }}</div><br>
+            <button (click)="enroll(insurance)" class="enroll-button"> Enroll </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Right section for help center and social media -->
+    <div class="right-section">
+      <!-- Help Center -->
+      <div class="box-container">
+        <h2>Help Center</h2>
+        <div class="contact-info">
+          <p>If you need assistance, please contact our support team:</p>
+          <ul>
+            <li>Email: support&#64;gmail.com</li>
+            <li>Phone:  9840283868</li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Social Media -->
+      <div class="box-container">
+        <h2>Follow us on social media:</h2>
+        <div class="social-icons">
+          <!-- Add social media icons here -->
+          <a href="https://www.facebook.com/iLink.digital"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/ilink_digital"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ilinkdigital"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

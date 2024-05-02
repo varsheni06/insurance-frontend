@@ -1,0 +1,65 @@
+.outer{
+    height: 100vh;
+    background: linear-gradient(to top, #c9c9ff 50%, #6e6ef6 90%) no repeat; 
+}
+
+.panel-heading{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(9, 9, 53); /* Change color */
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(9, 9, 53); /* Change color */
+}
+
+.btn{
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(9, 9, 53); /* Change color */
+    color: #fff; /* Change color */
+}
+
+.panel{
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px;
+    margin-top: 100px;
+}
+
+.input-field{
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: rgb(9, 9, 53); /* Change color */
+}
+
+.input-field.error{
+    border: 1px solid red;
+    color: red;
+}
+
+input[type='text'],
+input[type='password']{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.fa-eye-slash.btn{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-container {
+    margin-left: auto; /* Move to the right */
+    margin-right: auto; /* Move to the left */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Adjust max width */
+}

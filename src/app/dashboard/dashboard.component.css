@@ -1,0 +1,153 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;/* Limit the maximum width */
+    margin: 100px auto; /* Center the container and add space from top and bottom */
+    color:rgb(9, 9, 53);
+  }
+  
+  .left-section,
+  .right-section {
+    flex-basis: 48%; /* Adjust the width as needed */
+  }
+  
+  .box-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .box-container h2 {
+    margin-top: 0;
+    text-align: center;
+    
+  }
+  
+  .profile-item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .insurance-item {
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgba(9, 9, 53, 0.1); /* Add a bottom border */
+    padding-bottom: 60px; /* Add some padding to separate the border from the content */
+  }
+  
+  .expiry-date {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .contact-info ul {
+    padding-left: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    
+  }
+  
+  .social-icons a {
+    color: #666;
+    font-size: 24px;
+    margin-right: 10px;
+   
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(9, 9, 53);
+    color: #fff;
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 58px;/* Adjust the size of the logo */
+    top: 0;
+    left: 0;
+
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .logout button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout button:hover {
+    background-color: #ddd;
+  }
+  
+  .content {
+    margin-top: 70px; /* Adjust this value to match the height of the header */
+  }
+  .right-section {
+    flex-basis: 20%; /* Adjust the width as needed */
+  }
+  .left-section {
+    flex-basis: 75%; /* Adjust the width as needed */
+  }
+  .insurance-item {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .insurance-item::before {
+    
+    color: rgb(9, 9, 53); /* Adjust the color as needed */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .enroll-button {
+    background-color: rgb(9, 9, 53);
+    color: #fff; /* Text color */
+    border: none;
+    padding: 2px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .enroll-button:hover {
+    background-color: #06062b; /* Darker shade on hover */
+  }
+  .insurance-name{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  .contact-info {
+  text-align: flex; /* Center the content */
+}
+.social-icons{
+    text-align: center;
+}
+.box-container1{
+    font-size: 20px;
+}

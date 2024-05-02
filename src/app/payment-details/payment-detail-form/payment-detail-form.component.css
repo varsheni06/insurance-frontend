@@ -1,0 +1,13 @@
+.text-danger {
+    color: red;
+}
+
+.btn-success {
+    background-color: rgb(9, 9, 53);
+    color: white;
+}
+
+.btn-primary {
+    background-color: rgb(9, 9, 53);
+    color: white;
+}

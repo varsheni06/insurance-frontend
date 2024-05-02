@@ -1,0 +1,62 @@
+<!-- <div class="header">
+    <div class="logo">
+      <img src="https://png.pngtree.com/template/20190316/ourmid/pngtree-insurance-logo-vector-image_80257.jpg" alt="Logo">
+    </div>
+    <div class="title">Insurance Company</div>
+    <div class="logout">
+      <button (click)="logout()">Logout</button>
+    </div>
+  </div>
+<div class="bg-body-secondary text-center py-5 rounded-2"></div>
+<h1 class="display-6 fw-bold">Payment detail register</h1>
+<div class="row mt-5">
+    <div class="col-6">
+        <app-payment-detail-form/>
+    </div>
+    <div class="col-6">
+        list payment details
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border px-4 py-3 rounded-3" *ngFor="let pd of service.list">
+
+                <div class="flex-grow-1 mouse-hover"
+                (click)="populateform(pd)">
+                    <div class="fw-bold">{{pd.cardOwnerName}}</div>
+                    <div>{{pd.cardNumber}}</div>
+                    <div class="fw-bold">{{pd.expirationDate}}</div>
+                </div>
+                <span>
+                    <i class="fa-solid fa-trash-can fa-lg mouse-hover"
+                    (click)="ondelete(pd.paymentDetailId)"></i>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div> -->
+
+<div class="container mt-5">
+    
+    <div class="bg-body text-left py-3 rounded-2 mb-4">
+      
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <app-payment-detail-form></app-payment-detail-form>
+      </div>
+      <div class="col-md-6">
+        <h3 class="fw-bold">List of Payees</h3>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center mb-3 border rounded-3" *ngFor="let pd of service.list">
+            <div class="flex-grow-1" (click)="populateform(pd)">
+              <div class="fw-bold">{{pd.cardOwnerName}}</div>
+              <div>{{pd.cardNumber}}</div>
+              <div class="fw-bold">{{pd.expirationDate}}</div>
+            </div>
+            <span>
+              <i class="fas fa-trash-alt fa-lg text-danger cursor-pointer" (click)="ondelete(pd.paymentDetailId)"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
