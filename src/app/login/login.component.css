@@ -6,19 +6,19 @@
 .panel-heading{
     text-align: center;
     margin-bottom: 10px;
-    color: rgb(9, 9, 53); /* Change color */
+    color: rgb(9, 9, 53); 
 }
 
 a:hover{
     text-decoration: none;
-    color: rgb(9, 9, 53); /* Change color */
+    color: rgb(9, 9, 53); 
 }
 
 .btn{
     margin-top: 20px;
     border-radius: 15px;
-    background-color: rgb(9, 9, 53); /* Change color */
-    color: #fff; /* Change color */
+    background-color: rgb(9, 9, 53); 
+    color: #fff; 
 }
 
 .panel{
@@ -35,7 +35,7 @@ a:hover{
     align-items: center;
     cursor: pointer;
     border: 1px solid #ddd;
-    color: rgb(9, 9, 53); /* Change color */
+    color: rgb(9, 9, 53); 
 }
 
 .input-field.error{
@@ -58,8 +58,8 @@ input[type='password']{
 }
 
 .login-container {
-    margin-left: auto; /* Move to the right */
-    margin-right: auto; /* Move to the left */
-    width: 100%; /* Full width */
-    max-width: 500px; /* Adjust max width */
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    max-width: 500px; 
 }

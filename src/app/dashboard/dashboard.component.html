@@ -8,9 +8,7 @@
     </div>
   </div>
 <div class="dashboard-container">
-    <!-- Left section for profile details and insurances -->
     <div class="left-section">
-      <!-- User Profile Details -->
       <div class="box-container">
         <h2>User Profile Details</h2>
         <div class="profile-item">
@@ -24,7 +22,7 @@
         </div>
       </div>
   
-      <!-- Available Insurances -->
+      
       <div class="box-container">
         <h2>Available Insurances</h2>
         <br>
@@ -33,13 +31,11 @@
             <div class="insurance-name">{{ insurance.name }}</div>
             <div class="insurance-description">{{ insurance.description }}</div>
             <div class="expiry-date">Expiry Date: {{ insurance.expiryDate }}</div><br>
-            <button (click)="enroll(insurance)" class="enroll-button"> Pay </button>
+            <button (click)="enroll(insurance)" class="enroll-button"> Enroll </button>
           </li>
         </ul>
       </div>
     </div>
-  
-    <!-- Right section for help center and social media -->
     <div class="right-section">
       <!-- Help Center -->
       <div class="box-container">
@@ -53,11 +49,9 @@
         </div>
       </div>
   
-      <!-- Social Media -->
       <div class="box-container">
         <h2>Follow us on social media:</h2>
         <div class="social-icons">
-          <!-- Add social media icons here -->
           <a href="https://www.facebook.com/iLink.digital"><i class="fab fa-facebook"></i></a>
           <a href="https://twitter.com/ilink_digital"><i class="fab fa-twitter"></i></a>
           <a href="https://www.instagram.com/ilinkdigital"><i class="fab fa-instagram"></i></a>

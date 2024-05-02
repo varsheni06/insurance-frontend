@@ -32,7 +32,7 @@ export class PaymentDetailsComponent {
 
   }
   logout(): void {
-    // Clear the user session and navigate to the login page
+    
     localStorage.removeItem('currentUser');
     this.router.navigate(['/login']);
   }

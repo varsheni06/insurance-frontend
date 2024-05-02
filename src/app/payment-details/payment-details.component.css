@@ -22,8 +22,7 @@
 .logout button {
     padding: 8px 16px;
     background-color: #fff;
-    color: rgb(9, 9, 53); /* Adjust the color here */
-    border: none;
+    color: rgb(9, 9, 53); 
     border-radius: 5px;
     cursor: pointer;
 }
@@ -33,7 +32,7 @@
 }
 
 .container {
-    margin-top: 100px; /* Adjust as needed */
+    margin-top: 100px; 
 }
 
 .bg-body {
@@ -74,7 +73,6 @@
     cursor: pointer;
 }
 
-/* CSS for hover state of payment list items */
 .list-group-item:hover {
     cursor: pointer;
 }

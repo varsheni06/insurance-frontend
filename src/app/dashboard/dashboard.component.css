@@ -1,14 +1,14 @@
 .dashboard-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;/* Limit the maximum width */
-    margin: 100px auto; /* Center the container and add space from top and bottom */
+    max-width: 1000px;
+    margin: 100px auto; 
     color:rgb(9, 9, 53);
   }
   
   .left-section,
   .right-section {
-    flex-basis: 48%; /* Adjust the width as needed */
+    flex-basis: 48%; 
   }
   
   .box-container {
@@ -33,9 +33,8 @@
   
   .insurance-item {
     margin-bottom: 20px;
-    border-bottom: 3px solid rgba(9, 9, 53, 0.1); /* Add a bottom border */
-    padding-bottom: 60px; /* Add some padding to separate the border from the content */
-  }
+    border-bottom: 3px solid rgba(9, 9, 53, 0.1); 
+    padding-bottom: 60px; }
   
   .expiry-date {
     font-style: italic;
@@ -74,12 +73,11 @@
     padding: 20px;
     background-color: rgb(9, 9, 53);
     color: #fff;
-    z-index: 1000; /* Ensure the header is above other content */
-  }
+    z-index: 1000; }
   
   .logo img {
     width: 80px;
-    height: 58px;/* Adjust the size of the logo */
+    height: 58px;
     top: 0;
     left: 0;
 
@@ -103,13 +101,13 @@
   }
   
   .content {
-    margin-top: 70px; /* Adjust this value to match the height of the header */
+    margin-top: 70px; 
   }
   .right-section {
-    flex-basis: 20%; /* Adjust the width as needed */
+    flex-basis: 20%; 
   }
   .left-section {
-    flex-basis: 75%; /* Adjust the width as needed */
+    flex-basis: 75%; 
   }
   .insurance-item {
     list-style-type: none;
@@ -118,7 +116,7 @@
   
   .insurance-item::before {
     
-    color: rgb(9, 9, 53); /* Adjust the color as needed */
+    color: rgb(9, 9, 53); 
     font-weight: bold;
     display: inline-block;
     width: 1em;
@@ -126,7 +124,7 @@
   }
   .enroll-button {
     background-color: rgb(9, 9, 53);
-    color: #fff; /* Text color */
+    color: #fff; 
     border: none;
     padding: 2px 20px;
     border-radius: 7px;
@@ -134,7 +132,7 @@
   }
   
   .enroll-button:hover {
-    background-color: #06062b; /* Darker shade on hover */
+    background-color: #06062b; 
   }
   .insurance-name{
     font-weight: bold;
@@ -143,7 +141,7 @@
     font-size: large;
   }
   .contact-info {
-  text-align: flex; /* Center the content */
+  text-align: flex; 
 }
 .social-icons{
     text-align: center;

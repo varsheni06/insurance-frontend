@@ -1,40 +1,7 @@
-<!-- <div class="outer">
-    <div class="container">
-        <div class="row">
-            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
-                <div class="panel border bg-white">
-                    <div class="panel-heading">
-                        <h3 class="pt-3 font-weight-bold">LOGIN</h3>
-                    </div>
-                    <div class="panel-body p-3">
-                        <form>
-                            <div class="form-group pt-3">
-                                <div class="input-field">
-                                    <span class="fa fa-user p-2"></span>
-                                    <input type="text" placeholder="Username">
-                                </div>
-                            </div>
-                            <div class="form-group pt-3">
-                                <div class="input-field">
-                                    <span class="fa fa-lock p-2"></span>
-                                    <input [type]="type" placeholder="Password">
-                                    <span (click)="hideshowpass()" class="fa {{eyeicon}} "></span>
-                                </div>
-                            </div>
-                            <button type="submit" (click)="onLogin()"class="btn btn-primary btn-block mt-4 w-100">Login</button>
-                            <div class="text-center pt-4 text-muted">Dont have an account? <a id="forget" routerLink="/signup">SignUp</a></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div class="outer">
     <div class="container">
         <div class="row">
-            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3 login-container"> <!-- Added login-container class -->
+            <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3 login-container"> 
                 <div class="panel border bg-white">
                     <div class="panel-heading">
                         <h3 class="pt-3 font-weight-bold">LOGIN</h3>
@@ -44,17 +11,17 @@
                             <div class="form-group pt-3">
                                 <div class="input-field">
                                     <span class="fa fa-user p-2"></span>
-                                    <input type="text" formControlName="email" placeholder="Email"> <!-- Added formControlName for email -->
+                                    <input type="text" formControlName="email" placeholder="Email"> 
                                 </div>
                             </div>
                             <div class="form-group pt-3">
                                 <div class="input-field">
                                     <span class="fa fa-lock p-2"></span>
-                                    <input [type]="type" formControlName="password" placeholder="Password"> <!-- Added formControlName for password -->
+                                    <input [type]="type" formControlName="password" placeholder="Password"> 
                                     <span (click)="hideshowpass()" class="fa {{eyeicon}} "></span>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Login</button> <!-- Removed (click)="onLogin()" -->
+                            <button type="submit" class="btn btn-primary btn-block mt-4 w-100">Login</button> 
                             <div class="text-center pt-4 text-muted">Dont have an account? <a id="forget" routerLink="/signup">SignUp</a></div>
                         </form>
                     </div>
